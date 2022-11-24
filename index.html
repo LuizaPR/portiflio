@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Portifolio</title>
+</head>
+<body>
+  <main>
+
+    <!-- HEADER -->
+
+    <header>
+      <div class="logo">
+        <img id="brazil" src="./img/flagbrazil.webp" alt="Brazil Flag">
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Hi, I am Luiza!</h2>
+        <span class="home-position">A Full Stack Development</span>
+        <span class="home-resume">
+            I'm 21 years old and I'm currently studying Systems Analysis and Development 
+            at College of the Americas (FAM). I have knowledge in HTML | css | JavaScript | Python | 
+            POWER PLATFORMS..
+        </span>
+
+        <button>
+          <a href="#contact">Contact</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/avatar.jpg" alt="Perfil Picture">
+      </div>
+    </section>
+
+    <!-- programming languages -->
+    
+    <h2 id="title">Programming Languages</h2>
+
+    <section id="languages">
+      <div id="pythonIcon">
+        <img src="./img/python.png" alt="Python Icon">
+      </div>
+      <div id="cssIcon">
+        <img src="./img/css-image.png" alt="Css Icon">
+      </div>
+      <div id="htmlIcon">
+        <img src="./img/hml-image.png" alt="hml Icon">
+      </div>
+      <div id="jsIcon">
+        <img src="./img/js-image.png" alt="JS Icon">
+      </div>
+      <div id="powerappsIcon">
+        <img src="./img/powerappsIcon.png" alt="powerapps Icon">
+      </div>
+      <div id="powerautomateIcon">
+        <img src="./img/microsoft-power-automate-.png" alt="power automate Icon">
+      </div>   
+   </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/landingpage.png" alt="Landing Page">
+            </div>
+            <div class="project-info">
+              <h2>Responsive Management Applications</h2>
+              <p>Creation of applications on the Power Apps platform for commercial use,
+                for any type of device.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/powerapps.png" alt="APP Power apps ">
+            </div>
+            <div class="project-info">
+              <h2>Landing Page</h2>
+              <p>Creation of static pages with information.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              ...
+            </div>
+            <div class="project-info">
+              <h2>Loading</h2>
+              <p>Coming soon, the next project</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+      <button>Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    copyright © 2022 Luiza Prochinski Robinson. All rights reserved
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
